@@ -88,3 +88,145 @@ font-family: "Plus Jakarta Sans", sans-serif;
     height: 24px;
 }
 }
+/* Easy to Learn,
+Challenging to Master */
+.easy-text{
+    text-align: center;
+        color: #314158;
+        margin-bottom: 30px;
+}
+.easy-swiper .swiper-slide{
+border: 1px solid rgba(226, 232, 240, 0.6);
+    border-radius: 24px;
+    padding: 23px;
+    width: 330px;
+    height: 194px;
+    background: linear-gradient(135deg, #f8fafc 0%, #fff 100%);
+}
+.easy-slide-title{
+    font-family: "Plus Jakarta Sans", sans-serif;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 1.75;
+        color: #0f172b;
+        margin-top: 16px;
+        margin-bottom: 8px;
+}
+.easy-container .swiper-ui {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.swiper-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 29px;
+    height: 29px;
+    border-radius: 999px;
+    border: 1px solid #101828;
+    background: inherit;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform .15s ease, background .15s ease, border-color .15s ease;
+}
+
+.swiper-btn:hover {
+    transform: translateY(-1px);
+background: linear-gradient(135deg, #bfdbff 0%, #3badff 100%);
+    border: inherit;
+}
+
+.swiper-btn:disabled {
+    opacity: .35;
+    cursor: not-allowed;
+}
+
+/* pagination bullets */
+.swiper-pagination {
+    position: static !important;
+    width: auto !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.reviews-pagination .swiper-pagination-bullet,
+.easy-pagination .swiper-pagination-bullet {
+    width: 4px !important;
+    height: 4px !important;
+    background: #7c7c7c;
+    opacity: 1 !important;
+    border-radius: 999px;
+    margin: 0 !important;
+    transition: width .2s ease, height .2s ease, background .2s ease;
+}
+
+.reviews-pagination .swiper-pagination-bullet-active,
+.easy-pagination .swiper-pagination-bullet-active {
+    width: 6px !important;
+    height: 6px !important;
+    background:#3d3d3d;
+    opacity: 1 !important;
+}
+.arrow{
+stroke:#101828;
+}
+.swiper-btn:hover .arrow{
+    stroke: white;
+}
+.easy-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.easy-img{
+position: absolute;
+top: -3%;
+right: 0;
+}
+@media only screen and (min-width: 1440px) {
+.easy-container {
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+.easy-img {
+    position: absolute;
+    top: 12%;
+    right: 8%;
+}
+.easy-text{
+    font-size: 20px;
+    width: 723px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.easy-swiper .swiper-wrapper{
+    width: 1212px;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.easy-swiper .swiper-slide{
+    width: 380px;
+padding: 13px 24px;
+        height: 194px !important;
+        font-size: 14px;
+        box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.1), 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.easy-slide-title{
+    font-size: 18px;
+}
+.easy-container .swiper-ui{
+display: none;
+}
+}
