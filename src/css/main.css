@@ -388,3 +388,48 @@ font-size: 20px;
         width: 956px;
     }
 }
+/* Become a True Tile Master */
+.become-section{
+    background-image: url("/img/become/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+.become-wrapper{
+        margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.become-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 10px;
+        color: #314158;
+        width: 330px;
+}
+@media only screen and (min-width: 1440px) {
+.become-section{
+        background-image: url("/img/become/desk.png");
+
+    }
+ .become-wrapper{
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+   margin-top: 94px;   
+ }
+.become-text-wrapper {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+font-size: 20px;
+    line-height: 1.3;
+    width: 724px;
+}
+}
